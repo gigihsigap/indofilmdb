@@ -1,0 +1,178 @@
+body {
+  font-family: montserrat;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.952);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  box-shadow: 0px -10px 50px 0px rgba(255, 255, 255, 0.185);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 10%;
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 3px 3px 3px rgba(255, 45, 45, 0.76);
+}
+
+.nav {
+  margin-right: 10%;
+}
+
+.nav ul li {
+  display: inline;
+  margin: 0px 15px;
+  text-decoration: none;
+}
+
+.nav a {
+  color: #fff;
+  transition: 0s;
+  padding-bottom: 8px;
+}
+
+.navee .active {
+  border-bottom: 3px solid rgb(255, 45, 45);
+}
+  
+  main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* HEADER */
+  
+  
+  
+  /* SEARCH BOX */
+  
+  section {
+    padding: 15px;
+  }
+
+.searchbox {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  border: none;
+  outline: none;
+  background: none;
+
+  background-color: #eeeeee;
+  border-radius: 8px;
+
+  color: #53565a;
+  font-size: 20px;
+  font-weight: 300;
+
+  transition: 0.4s ease-out;
+}
+
+.searchbox:focus {
+  box-shadow: 0px 0px 8px 3px #4484c4;
+}
+
+/* */
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+}
+
+.results .movieCard {
+  width: 33.33%;
+  min-width: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.results .movieCard img {
+  display: block;
+  width: 100%;
+}
+
+.results .movieCard h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  background: #445565;
+  flex: 1 1 100%;
+  transition: 0.4s ease-out;
+}
+
+.results .movieCard button {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  background: #445565;
+  flex: 1 1 100%;
+  transition: 0.4s ease-out;
+}
+
+.results .movieCard:hover h3 {
+  background: #ffffff;
+  color: #223343;
+}
+
+.results button:hover {
+  background: #ffffff;
+  color: #223343;
+}
+
+/* */
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+button {
+  background-color: #53565a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.order-btn {
+  background-color: #4caf50;
+}
