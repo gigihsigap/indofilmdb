@@ -1,7 +1,12 @@
 import React from 'react';
-import MovieCard from './MovieCard'
+import MovieCard from './MovieCard';
+import NewCard from './NewCard';
 
 function Results(props) {
+
+    /*
+    <MovieCard key={result.imdbID} result={result} />
+    */
     return (
         <section className="results">
             {props.results.map(result => (

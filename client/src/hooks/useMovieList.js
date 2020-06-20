@@ -9,7 +9,7 @@ function useMovieList() {
   })
 
   useEffect(() => {
-      fetch(`${OMDB_API}&s=Shadow`)
+      fetch(`${OMDB_API}&s=Indonesia`)
       .then((response) => {
         return response.json()
       })
